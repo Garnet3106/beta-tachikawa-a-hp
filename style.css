@@ -1,0 +1,47 @@
+body {
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+div.header {
+    background-image: url('lib/img/header.png');
+    background-size: 100% 100%;
+    height: 66vw;
+    width: 100vw;
+}
+
+div.main {
+    background-color: #f2fff0;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    justify-content: center;
+    width: 100vw;
+}
+
+/* div.title {
+    back
+} */
+
+div.vegetable-img {
+    background-color: white;
+    height: 60vw;
+    width: 80vw;
+}
+
+div.normal-desc {
+    width: 90vw;
+}
+
+div.footer {
+    background-color: rgb(255, 234, 208);
+    height: 50px;
+    width: 100vw;
+}
