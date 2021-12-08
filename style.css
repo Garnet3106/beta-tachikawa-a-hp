@@ -1,5 +1,12 @@
+@font-face {
+    font-family: 'Noto Sans Japanese';
+    src: url('lib/fonts/Noto_Sans_JP/NotoSansJP-Regular.otf');
+}
+
 body {
-    font-size: 13px;
+    font-family: 'Noto Sans Japanese';
+    /* todo: レスポンシブ対応 */
+    font-size: 4.2vw;
     margin: 0;
     padding: 0;
 }
@@ -18,26 +25,109 @@ div.header {
 }
 
 div.main {
+    align-items: center;
     background-color: #f2fff0;
     display: flex;
     flex-direction: column;
-    height: 500px;
-    justify-content: center;
     width: 100vw;
 }
 
-/* div.title {
-    back
-} */
-
-div.vegetable-img {
-    background-color: white;
-    height: 60vw;
-    width: 80vw;
+div.title {
+    border-bottom: 2px solid #cccccc;
+    border-top: 2px solid #cccccc;
+    font-size: 110%;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 5px 0;
+    text-align: center;
+    width: 50%;
 }
 
-div.normal-desc {
-    width: 90vw;
+div.desc {
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* imgtxt */
+
+div.imgtxt {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+div.imgtxt-img {
+    background-size: 100% 100%;
+    border-radius: 5vw;
+    height: 25vw;
+    width: 25vw;
+}
+
+div.imgtxt-desc {
+    width: 65vw;
+}
+
+/* mini-imgtxt */
+
+div.mini-imgtxt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div.mini-imgtxt-title {
+    font-size: 110%;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+div.mini-imgtxt-img {
+    background-size: 100% 100%;
+    border-radius: 3vw;
+    height: 30vw;
+    width: 40vw;
+}
+
+div.mini-imgtxt-desc {
+    margin-top: 5px;
+}
+
+/* imgtxtlist */
+
+div.imgtxtlist {
+    display: flex;
+    flex-direction: column;
+}
+
+div.imgtxtlist-row {
+    display: flex;
+    margin-bottom: 5vw;
+}
+
+div.imgtxtlist-row:first-child {
+    margin-top: 5vw;
+}
+
+div.imgtxtlist-row:last-child {
+    margin-bottom: 0;
+}
+
+div.imgtxtlist-row-item {
+    margin-left: 3vw;
+    width: 45.5vw;
+}
+
+div.imgtxtlist-row-item-img {
+    background-size: 100% 100%;
+    border-radius: 2vw;
+    height: 30vw;
+    width: 100%;
+}
+
+div.imgtxtlist-row-item-desc {
+    padding-top: 3vw;
+    width: 100%;
 }
 
 div.footer {
