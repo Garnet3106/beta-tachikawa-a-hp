@@ -46,7 +46,6 @@ div.title {
 div.desc {
     padding: 0 10px;
     text-align: center;
-    width: 100%;
 }
 
 /* imgtxt */
@@ -71,26 +70,27 @@ div.imgtxt-desc {
 /* mini-imgtxt */
 
 div.mini-imgtxt {
+    align-items: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
 div.mini-imgtxt-title {
     font-size: 110%;
     font-weight: bold;
-    margin: 20px 0;
+    margin-top: 20px;
+}
+
+div.mini-imgtxt-desc {
+    margin-top: 10px;
 }
 
 div.mini-imgtxt-img {
     background-size: 100% 100%;
     border-radius: 3vw;
     height: 30vw;
+    margin: 10px 0 20px;
     width: 40vw;
-}
-
-div.mini-imgtxt-desc {
-    margin-top: 5px;
 }
 
 /* imgtxtlist */
