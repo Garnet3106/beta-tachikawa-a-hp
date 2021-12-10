@@ -18,6 +18,7 @@ div.content {
 }
 
 div.header {
+    /* todo: 画像サイズ調整 */
     background-image: url('lib/img/header.png');
     background-size: 100% 100%;
     height: 66vw;
@@ -26,7 +27,9 @@ div.header {
 
 div.main {
     align-items: center;
-    background-color: #f2fff0;
+    background-color: #ecffe8;
+    background-image: url('lib/img/background.png');
+    background-size: 100vw 80vw;
     display: flex;
     flex-direction: column;
     width: 100vw;
@@ -93,6 +96,21 @@ div.mini-imgtxt-img {
     width: 40vw;
 }
 
+/* imglist */
+
+div.imglist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div.imglist-item {
+    background-size: 100% 100%;
+    height: 25vw;
+    margin: 10px 0 0 10px;
+    width: 25vw;
+}
+
 /* imgtxtlist */
 
 div.imgtxtlist {
@@ -133,5 +151,6 @@ div.imgtxtlist-row-item-desc {
 div.footer {
     background-color: rgb(255, 234, 208);
     height: 50px;
+    margin-top: 15px;
     width: 100vw;
 }
