@@ -4,6 +4,7 @@
 }
 
 body {
+    color: #000000;
     font-family: 'Noto Sans Japanese';
     /* todo: レスポンシブ対応 */
     font-size: 4.2vw;
@@ -32,6 +33,7 @@ div.main {
     background-size: 100vw 80vw;
     display: flex;
     flex-direction: column;
+    padding-bottom: 20px;
     width: 100vw;
 }
 
@@ -150,7 +152,8 @@ div.imgtxtlist-row-item-desc {
 
 div.footer {
     background-color: rgb(255, 234, 208);
-    height: 50px;
-    margin-top: 15px;
+    font-size: 80%;
+    text-align: center;
+    padding: 5px 0;
     width: 100vw;
 }
