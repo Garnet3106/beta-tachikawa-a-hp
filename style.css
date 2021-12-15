@@ -88,6 +88,7 @@ div.mini-imgtxt-title {
 }
 
 div.mini-imgtxt-desc {
+    margin-bottom: 5px;
     margin-top: 10px;
     text-align: center;
 }
