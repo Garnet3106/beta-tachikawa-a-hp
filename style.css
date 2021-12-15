@@ -4,6 +4,7 @@
 }
 
 body {
+    background-color: #ecffe8;
     color: #000000;
     font-family: 'Noto Sans Japanese';
     /* todo: レスポンシブ対応 */
@@ -15,7 +16,6 @@ body {
 div.content {
     display: flex;
     flex-direction: column;
-    width: 100vw;
 }
 
 div.header {
@@ -23,18 +23,17 @@ div.header {
     background-image: url('lib/img/header.png');
     background-size: 100% 100%;
     height: 66vw;
-    width: 100vw;
+    width: 100%;
 }
 
 div.main {
     align-items: center;
-    background-color: #ecffe8;
     background-image: url('lib/img/background.png');
     background-size: 100vw 80vw;
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
-    width: 100vw;
+    width: 100%;
 }
 
 div.title {
@@ -49,6 +48,7 @@ div.title {
 }
 
 div.desc {
+    font-size: 90%;
     padding: 0 10px;
     text-align: center;
 }
@@ -69,6 +69,7 @@ div.imgtxt-img {
 }
 
 div.imgtxt-desc {
+    font-size: 90%;
     width: 65vw;
 }
 
@@ -88,6 +89,7 @@ div.mini-imgtxt-title {
 
 div.mini-imgtxt-desc {
     margin-top: 10px;
+    text-align: center;
 }
 
 div.mini-imgtxt-img {
@@ -146,6 +148,7 @@ div.imgtxtlist-row-item-img {
 }
 
 div.imgtxtlist-row-item-desc {
+    font-size: 90%;
     padding-top: 3vw;
     width: 100%;
 }
@@ -155,5 +158,5 @@ div.footer {
     font-size: 80%;
     text-align: center;
     padding: 5px 0;
-    width: 100vw;
+    width: 100%;
 }
